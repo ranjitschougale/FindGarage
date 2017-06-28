@@ -7,13 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		284539FC85A155AE42E88DC6 /* Pods_FindGarage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A8B0C0D442FDE6BA5444371 /* Pods_FindGarage.framework */; };
+		37D1EB4BA90E772FE1B3DEEE /* Pods_FindGarageUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B5D2026729A95CDFF9AB29B /* Pods_FindGarageUITests.framework */; };
+		A03235A18E9CCEEB65B9DDCD /* Pods_FindGarageTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67D30680FDC71EE8DFA9DD8B /* Pods_FindGarageTests.framework */; };
+		E98CB0251F0371BE00963A17 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E98CB0241F0371BE00963A17 /* LoginViewController.swift */; };
+		E98CB0271F0371CC00963A17 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E98CB0261F0371CC00963A17 /* SignUpViewController.swift */; };
+		E98CB0291F0371DE00963A17 /* ForgotPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E98CB0281F0371DE00963A17 /* ForgotPasswordViewController.swift */; };
+		E98CB02B1F03B6FA00963A17 /* CustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E98CB02A1F03B6FA00963A17 /* CustomView.swift */; };
 		E9C2A9111F02883C00C6BCF8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9C2A9101F02883C00C6BCF8 /* AppDelegate.swift */; };
-		E9C2A9131F02883C00C6BCF8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9C2A9121F02883C00C6BCF8 /* ViewController.swift */; };
 		E9C2A9161F02883C00C6BCF8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9C2A9141F02883C00C6BCF8 /* Main.storyboard */; };
 		E9C2A9181F02883C00C6BCF8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E9C2A9171F02883C00C6BCF8 /* Assets.xcassets */; };
 		E9C2A91B1F02883C00C6BCF8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9C2A9191F02883C00C6BCF8 /* LaunchScreen.storyboard */; };
 		E9C2A9261F02883D00C6BCF8 /* FindGarageTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9C2A9251F02883D00C6BCF8 /* FindGarageTests.swift */; };
 		E9C2A9311F02883D00C6BCF8 /* FindGarageUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9C2A9301F02883D00C6BCF8 /* FindGarageUITests.swift */; };
+		E9C2A94B1F028B7E00C6BCF8 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9C2A94A1F028B7E00C6BCF8 /* MenuViewController.swift */; };
+		E9C2A94D1F028DA200C6BCF8 /* CustomSideMenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9C2A94C1F028DA200C6BCF8 /* CustomSideMenuController.swift */; };
+		E9C2A94F1F02A02F00C6BCF8 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9C2A94E1F02A02F00C6BCF8 /* HomeViewController.swift */; };
+		E9C2A9511F02A06800C6BCF8 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9C2A9501F02A06800C6BCF8 /* ProfileViewController.swift */; };
+		E9C2A9531F02A0A000C6BCF8 /* SearchByBrandViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9C2A9521F02A0A000C6BCF8 /* SearchByBrandViewController.swift */; };
+		E9C2A9551F02A0C600C6BCF8 /* BookingHistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9C2A9541F02A0C600C6BCF8 /* BookingHistoryViewController.swift */; };
+		E9C2A9571F02A0ED00C6BCF8 /* TermsAndConditionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9C2A9561F02A0ED00C6BCF8 /* TermsAndConditionViewController.swift */; };
+		E9C2A9591F02A12000C6BCF8 /* ContactUsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9C2A9581F02A12000C6BCF8 /* ContactUsViewController.swift */; };
+		E9C2A95B1F02A14600C6BCF8 /* AboutUsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9C2A95A1F02A14600C6BCF8 /* AboutUsViewController.swift */; };
+		E9E5CB241F03EC1300EB0D1C /* GarageBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9E5CB231F03EC1300EB0D1C /* GarageBaseViewController.swift */; };
+		E9E5CB261F03EC3D00EB0D1C /* GarageListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9E5CB251F03EC3D00EB0D1C /* GarageListViewController.swift */; };
+		F2449E2C1F02C7E600969C94 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2449E2B1F02C7E600969C94 /* BaseViewController.swift */; };
+		F2449E301F02CA8E00969C94 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2449E2F1F02CA8E00969C94 /* Constants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +53,19 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0A8B0C0D442FDE6BA5444371 /* Pods_FindGarage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FindGarage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1572A2F4F382AD4AA09C4CAB /* Pods-FindGarageUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FindGarageUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FindGarageUITests/Pods-FindGarageUITests.release.xcconfig"; sourceTree = "<group>"; };
+		3B5D2026729A95CDFF9AB29B /* Pods_FindGarageUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FindGarageUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		67D30680FDC71EE8DFA9DD8B /* Pods_FindGarageTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FindGarageTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE867AEA477B99DB382FD2DC /* Pods-FindGarageUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FindGarageUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FindGarageUITests/Pods-FindGarageUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		D2312E98F4F896C3818EFD84 /* Pods-FindGarageTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FindGarageTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FindGarageTests/Pods-FindGarageTests.release.xcconfig"; sourceTree = "<group>"; };
+		D6857A7D2F6316808FA71083 /* Pods-FindGarage.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FindGarage.release.xcconfig"; path = "Pods/Target Support Files/Pods-FindGarage/Pods-FindGarage.release.xcconfig"; sourceTree = "<group>"; };
+		E98CB0241F0371BE00963A17 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		E98CB0261F0371CC00963A17 /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		E98CB0281F0371DE00963A17 /* ForgotPasswordViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ForgotPasswordViewController.swift; sourceTree = "<group>"; };
+		E98CB02A1F03B6FA00963A17 /* CustomView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomView.swift; sourceTree = "<group>"; };
 		E9C2A90D1F02883C00C6BCF8 /* FindGarage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FindGarage.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E9C2A9101F02883C00C6BCF8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E9C2A9121F02883C00C6BCF8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		E9C2A9151F02883C00C6BCF8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E9C2A9171F02883C00C6BCF8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E9C2A91A1F02883C00C6BCF8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +76,21 @@
 		E9C2A92C1F02883D00C6BCF8 /* FindGarageUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FindGarageUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E9C2A9301F02883D00C6BCF8 /* FindGarageUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindGarageUITests.swift; sourceTree = "<group>"; };
 		E9C2A9321F02883D00C6BCF8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E9C2A94A1F028B7E00C6BCF8 /* MenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		E9C2A94C1F028DA200C6BCF8 /* CustomSideMenuController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomSideMenuController.swift; sourceTree = "<group>"; };
+		E9C2A94E1F02A02F00C6BCF8 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		E9C2A9501F02A06800C6BCF8 /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		E9C2A9521F02A0A000C6BCF8 /* SearchByBrandViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchByBrandViewController.swift; sourceTree = "<group>"; };
+		E9C2A9541F02A0C600C6BCF8 /* BookingHistoryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookingHistoryViewController.swift; sourceTree = "<group>"; };
+		E9C2A9561F02A0ED00C6BCF8 /* TermsAndConditionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TermsAndConditionViewController.swift; sourceTree = "<group>"; };
+		E9C2A9581F02A12000C6BCF8 /* ContactUsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactUsViewController.swift; sourceTree = "<group>"; };
+		E9C2A95A1F02A14600C6BCF8 /* AboutUsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutUsViewController.swift; sourceTree = "<group>"; };
+		E9E5CB231F03EC1300EB0D1C /* GarageBaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GarageBaseViewController.swift; sourceTree = "<group>"; };
+		E9E5CB251F03EC3D00EB0D1C /* GarageListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GarageListViewController.swift; sourceTree = "<group>"; };
+		F2449E2B1F02C7E600969C94 /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		F2449E2F1F02CA8E00969C94 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		F4F6AED345D9ADD8890B63AF /* Pods-FindGarage.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FindGarage.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FindGarage/Pods-FindGarage.debug.xcconfig"; sourceTree = "<group>"; };
+		FF6367A1FEF210D698AFEB83 /* Pods-FindGarageTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FindGarageTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FindGarageTests/Pods-FindGarageTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +98,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				284539FC85A155AE42E88DC6 /* Pods_FindGarage.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +106,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A03235A18E9CCEEB65B9DDCD /* Pods_FindGarageTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +114,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				37D1EB4BA90E772FE1B3DEEE /* Pods_FindGarageUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		73F58F980F2894BA7262F68A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F4F6AED345D9ADD8890B63AF /* Pods-FindGarage.debug.xcconfig */,
+				D6857A7D2F6316808FA71083 /* Pods-FindGarage.release.xcconfig */,
+				FF6367A1FEF210D698AFEB83 /* Pods-FindGarageTests.debug.xcconfig */,
+				D2312E98F4F896C3818EFD84 /* Pods-FindGarageTests.release.xcconfig */,
+				AE867AEA477B99DB382FD2DC /* Pods-FindGarageUITests.debug.xcconfig */,
+				1572A2F4F382AD4AA09C4CAB /* Pods-FindGarageUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		84E20FD21BC4C53BEBF493AC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0A8B0C0D442FDE6BA5444371 /* Pods_FindGarage.framework */,
+				67D30680FDC71EE8DFA9DD8B /* Pods_FindGarageTests.framework */,
+				3B5D2026729A95CDFF9AB29B /* Pods_FindGarageUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		E9C2A9041F02883C00C6BCF8 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +151,8 @@
 				E9C2A9241F02883D00C6BCF8 /* FindGarageTests */,
 				E9C2A92F1F02883D00C6BCF8 /* FindGarageUITests */,
 				E9C2A90E1F02883C00C6BCF8 /* Products */,
+				73F58F980F2894BA7262F68A /* Pods */,
+				84E20FD21BC4C53BEBF493AC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,11 +169,12 @@
 		E9C2A90F1F02883C00C6BCF8 /* FindGarage */ = {
 			isa = PBXGroup;
 			children = (
-				E9C2A9101F02883C00C6BCF8 /* AppDelegate.swift */,
-				E9C2A9121F02883C00C6BCF8 /* ViewController.swift */,
-				E9C2A9141F02883C00C6BCF8 /* Main.storyboard */,
+				E9C2A9431F02897500C6BCF8 /* AppDelegate */,
+				E9C2A9401F02896200C6BCF8 /* Model */,
+				E9C2A9421F02896200C6BCF8 /* View */,
+				E9C2A93F1F02896200C6BCF8 /* Controller */,
+				E9C2A9411F02896200C6BCF8 /* Utility */,
 				E9C2A9171F02883C00C6BCF8 /* Assets.xcassets */,
-				E9C2A9191F02883C00C6BCF8 /* LaunchScreen.storyboard */,
 				E9C2A91C1F02883D00C6BCF8 /* Info.plist */,
 			);
 			path = FindGarage;
@@ -125,6 +198,61 @@
 			path = FindGarageUITests;
 			sourceTree = "<group>";
 		};
+		E9C2A93F1F02896200C6BCF8 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				E9C2A94A1F028B7E00C6BCF8 /* MenuViewController.swift */,
+				E9C2A94C1F028DA200C6BCF8 /* CustomSideMenuController.swift */,
+				F2449E2B1F02C7E600969C94 /* BaseViewController.swift */,
+				E9C2A94E1F02A02F00C6BCF8 /* HomeViewController.swift */,
+				E9C2A9501F02A06800C6BCF8 /* ProfileViewController.swift */,
+				E9C2A9521F02A0A000C6BCF8 /* SearchByBrandViewController.swift */,
+				E9C2A9541F02A0C600C6BCF8 /* BookingHistoryViewController.swift */,
+				E9C2A9561F02A0ED00C6BCF8 /* TermsAndConditionViewController.swift */,
+				E9C2A9581F02A12000C6BCF8 /* ContactUsViewController.swift */,
+				E9C2A95A1F02A14600C6BCF8 /* AboutUsViewController.swift */,
+				E98CB0241F0371BE00963A17 /* LoginViewController.swift */,
+				E98CB0261F0371CC00963A17 /* SignUpViewController.swift */,
+				E98CB0281F0371DE00963A17 /* ForgotPasswordViewController.swift */,
+				E9E5CB231F03EC1300EB0D1C /* GarageBaseViewController.swift */,
+				E9E5CB251F03EC3D00EB0D1C /* GarageListViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		E9C2A9401F02896200C6BCF8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E9C2A9411F02896200C6BCF8 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				F2449E2F1F02CA8E00969C94 /* Constants.swift */,
+				E98CB02A1F03B6FA00963A17 /* CustomView.swift */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		E9C2A9421F02896200C6BCF8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E9C2A9141F02883C00C6BCF8 /* Main.storyboard */,
+				E9C2A9191F02883C00C6BCF8 /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E9C2A9431F02897500C6BCF8 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				E9C2A9101F02883C00C6BCF8 /* AppDelegate.swift */,
+			);
+			name = AppDelegate;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +260,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E9C2A9351F02883D00C6BCF8 /* Build configuration list for PBXNativeTarget "FindGarage" */;
 			buildPhases = (
+				887629C6BD1A536A727CF68E /* [CP] Check Pods Manifest.lock */,
 				E9C2A9091F02883C00C6BCF8 /* Sources */,
 				E9C2A90A1F02883C00C6BCF8 /* Frameworks */,
 				E9C2A90B1F02883C00C6BCF8 /* Resources */,
+				311085D5EABF62AF4615586D /* [CP] Embed Pods Frameworks */,
+				2C657FF0E307C380E3EB716F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +280,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E9C2A9381F02883D00C6BCF8 /* Build configuration list for PBXNativeTarget "FindGarageTests" */;
 			buildPhases = (
+				A8B4074C55037C0EDF708449 /* [CP] Check Pods Manifest.lock */,
 				E9C2A91D1F02883D00C6BCF8 /* Sources */,
 				E9C2A91E1F02883D00C6BCF8 /* Frameworks */,
 				E9C2A91F1F02883D00C6BCF8 /* Resources */,
+				257E760416A2227978B46C80 /* [CP] Embed Pods Frameworks */,
+				B05BBD55DBA44F88C0807291 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +301,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E9C2A93B1F02883D00C6BCF8 /* Build configuration list for PBXNativeTarget "FindGarageUITests" */;
 			buildPhases = (
+				AABCADDD483A819CCDE29F87 /* [CP] Check Pods Manifest.lock */,
 				E9C2A9281F02883D00C6BCF8 /* Sources */,
 				E9C2A9291F02883D00C6BCF8 /* Frameworks */,
 				E9C2A92A1F02883D00C6BCF8 /* Resources */,
+				E1805DFAB51F256CBBFF4CA6 /* [CP] Embed Pods Frameworks */,
+				265B4C88397724EAE15E3D32 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -257,13 +394,167 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		257E760416A2227978B46C80 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FindGarageTests/Pods-FindGarageTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		265B4C88397724EAE15E3D32 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FindGarageUITests/Pods-FindGarageUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2C657FF0E307C380E3EB716F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FindGarage/Pods-FindGarage-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		311085D5EABF62AF4615586D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FindGarage/Pods-FindGarage-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		887629C6BD1A536A727CF68E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A8B4074C55037C0EDF708449 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		AABCADDD483A819CCDE29F87 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B05BBD55DBA44F88C0807291 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FindGarageTests/Pods-FindGarageTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E1805DFAB51F256CBBFF4CA6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FindGarageUITests/Pods-FindGarageUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		E9C2A9091F02883C00C6BCF8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E9C2A9131F02883C00C6BCF8 /* ViewController.swift in Sources */,
+				E9C2A94D1F028DA200C6BCF8 /* CustomSideMenuController.swift in Sources */,
+				E9C2A95B1F02A14600C6BCF8 /* AboutUsViewController.swift in Sources */,
+				F2449E2C1F02C7E600969C94 /* BaseViewController.swift in Sources */,
+				E9C2A94B1F028B7E00C6BCF8 /* MenuViewController.swift in Sources */,
+				E98CB02B1F03B6FA00963A17 /* CustomView.swift in Sources */,
+				E9E5CB261F03EC3D00EB0D1C /* GarageListViewController.swift in Sources */,
+				E9C2A9571F02A0ED00C6BCF8 /* TermsAndConditionViewController.swift in Sources */,
 				E9C2A9111F02883C00C6BCF8 /* AppDelegate.swift in Sources */,
+				E9C2A94F1F02A02F00C6BCF8 /* HomeViewController.swift in Sources */,
+				E9C2A9531F02A0A000C6BCF8 /* SearchByBrandViewController.swift in Sources */,
+				E9E5CB241F03EC1300EB0D1C /* GarageBaseViewController.swift in Sources */,
+				E98CB0271F0371CC00963A17 /* SignUpViewController.swift in Sources */,
+				E9C2A9551F02A0C600C6BCF8 /* BookingHistoryViewController.swift in Sources */,
+				E9C2A9511F02A06800C6BCF8 /* ProfileViewController.swift in Sources */,
+				E98CB0291F0371DE00963A17 /* ForgotPasswordViewController.swift in Sources */,
+				E9C2A9591F02A12000C6BCF8 /* ContactUsViewController.swift in Sources */,
+				E98CB0251F0371BE00963A17 /* LoginViewController.swift in Sources */,
+				F2449E301F02CA8E00969C94 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -305,6 +596,7 @@
 				E9C2A9151F02883C00C6BCF8 /* Base */,
 			);
 			name = Main.storyboard;
+			path = ..;
 			sourceTree = "<group>";
 		};
 		E9C2A9191F02883C00C6BCF8 /* LaunchScreen.storyboard */ = {
@@ -313,6 +605,7 @@
 				E9C2A91A1F02883C00C6BCF8 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			path = ..;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -413,32 +706,41 @@
 		};
 		E9C2A9361F02883D00C6BCF8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F4F6AED345D9ADD8890B63AF /* Pods-FindGarage.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = 53SNT73FFN;
 				INFOPLIST_FILE = FindGarage/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.neosofttech.FindGarage;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ranjits.FindGarage;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
 		E9C2A9371F02883D00C6BCF8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D6857A7D2F6316808FA71083 /* Pods-FindGarage.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = 53SNT73FFN;
 				INFOPLIST_FILE = FindGarage/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.neosofttech.FindGarage;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ranjits.FindGarage;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
 		E9C2A9391F02883D00C6BCF8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FF6367A1FEF210D698AFEB83 /* Pods-FindGarageTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -454,6 +756,7 @@
 		};
 		E9C2A93A1F02883D00C6BCF8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D2312E98F4F896C3818EFD84 /* Pods-FindGarageTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -469,6 +772,7 @@
 		};
 		E9C2A93C1F02883D00C6BCF8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AE867AEA477B99DB382FD2DC /* Pods-FindGarageUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = 53SNT73FFN;
@@ -483,6 +787,7 @@
 		};
 		E9C2A93D1F02883D00C6BCF8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1572A2F4F382AD4AA09C4CAB /* Pods-FindGarageUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = 53SNT73FFN;
@@ -514,6 +819,7 @@
 				E9C2A9371F02883D00C6BCF8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E9C2A9381F02883D00C6BCF8 /* Build configuration list for PBXNativeTarget "FindGarageTests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +828,7 @@
 				E9C2A93A1F02883D00C6BCF8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E9C2A93B1F02883D00C6BCF8 /* Build configuration list for PBXNativeTarget "FindGarageUITests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +837,7 @@
 				E9C2A93D1F02883D00C6BCF8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
